@@ -8,11 +8,11 @@ PANEL=latest
 WINGS=latest
 
 preflight(){
-    output "Pterodactyl Installation & Upgrade Script"
-    output "Copyright © 2018-2023 Thien Tran <contact@tommytran.io>."
-    output "Please join my Matrix for community support: https://matrix.to/#/#tommy:arcticfoxes.net"
+    output "Pterodactyl Installation Script"
+    output "Copyright © 2023 czhixsy."
     output ""
-    output "Please note that this script is meant to do installations on a fresh OS."
+    output "All installations should be performed on Original Support OS."
+    output ""
 
     if [ "$EUID" -ne 0 ]; then
         output "Please run as root."
